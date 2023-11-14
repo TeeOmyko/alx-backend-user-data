@@ -11,7 +11,7 @@ user_clear_pwd = "H0lberton:School:98!"
 
 user = User()
 user.email = user_email
-user.password = user_clear_pwd
+user.password = user_clear_pwd 
 print("New user: {}".format(user.id))
 user.save()
 
